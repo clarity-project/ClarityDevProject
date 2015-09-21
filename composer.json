@@ -4,7 +4,11 @@
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
-        "psr-4": { "": "src/", "SymfonyStandard\\": "app/SymfonyStandard/" }
+        "psr-4": { 
+            "": "src/", 
+            "SymfonyStandard\\": "app/SymfonyStandard/",
+            "Clarity\\YandexPassportBundle\\": "src/ClarityYandexPassport/"
+        }
     },
     "require": {
         "php": ">=5.3.9",
@@ -16,7 +20,10 @@
         "symfony/monolog-bundle": "~2.4",
         "sensio/distribution-bundle": "~4.0",
         "sensio/framework-extra-bundle": "^3.0.2",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+        "guzzle/guzzle": "~3.8",
+        "misd/guzzle-bundle": "~1.0",
+        "jms/serializer-bundle": "0.13.*"
     },
     "require-dev": {
         "sensio/generator-bundle": "~2.3"
