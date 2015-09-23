@@ -7,7 +7,7 @@
         "psr-4": { 
             "": "src/", 
             "SymfonyStandard\\": "app/SymfonyStandard/",
-            "Clarity\\YandexPassportBundle\\": "src/ClarityYandexPassport/"
+            "Clarity\\YandexOAuthBundle\\": "src/Clarity/YandexOAuthBundle/"
         }
     },
     "require": {

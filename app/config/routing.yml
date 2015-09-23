@@ -1,3 +1,7 @@
+clarity_yandex_o_auth:
+    resource: "@ClarityYandexOAuthBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
