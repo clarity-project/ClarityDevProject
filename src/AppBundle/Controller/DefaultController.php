@@ -14,7 +14,7 @@ class DefaultController extends Controller
     public function indexAction(Request $request)
     {
 
-       $manager = $this->get('clarity_yandex.passport.manager');
+       $manager = $this->get('clarity_yandex.oauth.manager');
 
        $response = $manager->getAuthorizationCode('my_first_app', 'my_first_app');
 

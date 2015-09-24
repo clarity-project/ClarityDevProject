@@ -79,7 +79,7 @@ swiftmailer:
     password:  "%mailer_password%"
     spool:     { type: memory }
 
-clarity_yandex_oauth:
+clarity_yandex_o_auth:
     apps:
         my_first_app:
             client_id: 8637046586084d188dca4ccacfc93c66
