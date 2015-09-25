@@ -87,11 +87,9 @@ clarity_yandex_o_auth:
             scopes:
                 main: ["money"]
                 admin: ["money", 'honey']
-#       my_another:
-#            client_id: BBD8B06040272951BDC5098892DC4B1AB545A91A3838D9FB10207B98006FC7F9
-#            client_secret: 709A42FBA23728724114AAA289829539572D1CE2DC33F1E56A32E80303884008C730433BC545348348037FB329D8540C8130D16EC353AF188FAF1CE66DAF74A6
-#            scopes:
-#                main: ["money"]
-#                admin: ["money", 'honey']    main: ±
-#                admin: ["money", 'honey']
-
+        my_another:
+            client_id: 8637046586084d188dca4ccacfc93c66
+            client_secret: c03173bcf04d43a38f1b7724ce158371
+            scopes:
+                main: ["money"]
+                admin: ["money", 'honey']
