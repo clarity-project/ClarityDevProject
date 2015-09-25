@@ -14,9 +14,10 @@ class DefaultController extends Controller
     public function indexAction(Request $request)
     {
 
-       $manager = $this->get('clarity_yandex.oauth.manager');
+       // $manager = $this->get('clarity_yandex.oauth.manager');
+       $service = $this->get('clarity_yandex.oauth.service');
 
-       $response = $manager->getAuthorizationCode('my_first_app', 'my_first_app');
+       $response = $service->getTokenByAppAndScope('my_first_app', 'main');
 //
         die(var_dump($response));
         // replace this example code with whatever you need
