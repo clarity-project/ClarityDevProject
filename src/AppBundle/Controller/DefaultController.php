@@ -13,7 +13,7 @@ class DefaultController extends Controller
      */
     public function indexAction(Request $request)
     {
-        return $this->redirectToRoute('clarity_yandex_oauth_token_generage', array(
+        return $this->redirectToRoute('clarity_yandex_oauth_token_request', array(
             'appName' => 'my_first_app',
             'scope' => 'main'
         ));

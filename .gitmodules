@@ -1,3 +1,7 @@
 [submodule "src/Clarity/YandexOAuthBundle"]
-	path = src/Clarity/YandexOAuthBundle
-	url = git@github.com:clarity-project/ClarityYandexOAuthBundle.git
+    path = src/Clarity/YandexOAuthBundle
+    url = git@github.com:clarity-project/ClarityYandexOAuthBundle.git
+
+[submodule "src/Clarity/YandexDirectBundle"]
+	path = src/Clarity/YandexDirectBundle
+	url = git@github.com:clarity-project/ClarityYandexDirectBundle.git

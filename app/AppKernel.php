@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             // src
             new AppBundle\AppBundle(),
             new Clarity\YandexOAuthBundle\ClarityYandexOAuthBundle(),
+            new Clarity\YandexDirectBundle\ClarityYandexDirectBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
