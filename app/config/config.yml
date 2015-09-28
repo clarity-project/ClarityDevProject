@@ -80,10 +80,12 @@ swiftmailer:
     spool:     { type: memory }
 
 clarity_yandex_o_auth:
+    default_redirect_route: homepage
     apps:
         my_first_app:
             client_id: 8637046586084d188dca4ccacfc93c66
             client_secret: c03173bcf04d43a38f1b7724ce158371
+            redirect_route: finish
             scopes:
                 main: ["money"]
                 admin: ["money", 'honey']
