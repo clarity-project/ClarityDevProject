@@ -86,12 +86,6 @@ clarity_yandex_o_auth:
             client_id: 8637046586084d188dca4ccacfc93c66
             client_secret: c03173bcf04d43a38f1b7724ce158371
             redirect_route: finish
-            scopes:
-                main: ["money"]
-                admin: ["money", 'honey']
         my_another:
             client_id: 8637046586084d188dca4ccacfc93c66
             client_secret: c03173bcf04d43a38f1b7724ce158371
-            scopes:
-                main: ["money"]
-                admin: ["money", 'honey']
