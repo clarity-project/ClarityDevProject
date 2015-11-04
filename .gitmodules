@@ -3,5 +3,9 @@
     url = git@github.com:clarity-project/ClarityYandexOAuthBundle.git
 
 [submodule "src/Clarity/YandexDirectBundle"]
-	path = src/Clarity/YandexDirectBundle
-	url = git@github.com:clarity-project/ClarityYandexDirectBundle.git
+    path = src/Clarity/YandexDirectBundle
+    url = git@github.com:clarity-project/ClarityYandexDirectBundle.git
+
+[submodule "src/Clarity/ClarityCdnBundle"]
+    path = src/Clarity/ClarityCdnBundle
+    url = git@github.com:clarity-project/ClarityCdnBundle.git
