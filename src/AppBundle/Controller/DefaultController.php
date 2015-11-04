@@ -36,4 +36,17 @@ class DefaultController extends Controller
     {
         return $this->render('AppBundle:Default:finish.html.twig');
     }
+
+    /**
+     * Action to dev/test ClarityCdnBundle
+     *
+     * @Route("/cdn", name="cdn")
+     */
+    public function cdnAction()
+    {
+        /** @var \Clarity\CdnBundle\Filemanager\Filemanager $filemanager **/
+        $filemanager = $this->get('clarity_cdn.filemanager');
+
+        return $this->render('AppBundle:Default:cdn.html.twig');
+    }
 }

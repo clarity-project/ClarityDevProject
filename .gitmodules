@@ -6,6 +6,6 @@
     path = src/Clarity/YandexDirectBundle
     url = git@github.com:clarity-project/ClarityYandexDirectBundle.git
 
-[submodule "src/Clarity/ClarityCdnBundle"]
-    path = src/Clarity/ClarityCdnBundle
+[submodule "src/Clarity/CdnBundle"]
+    path = src/Clarity/CdnBundle
     url = git@github.com:clarity-project/ClarityCdnBundle.git

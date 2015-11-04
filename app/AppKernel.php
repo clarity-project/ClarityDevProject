@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             
             // src
             new AppBundle\AppBundle(),
+            new Clarity\CdnBundle\ClarityCdnBundle(),
             new Clarity\YandexOAuthBundle\ClarityYandexOAuthBundle(),
             new Clarity\YandexDirectBundle\ClarityYandexDirectBundle(),
         );
